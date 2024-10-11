@@ -26,8 +26,6 @@ CLI_VERSION="${CLI_VERSION:-latest}"
 CLI_DOWNLOAD_URL_PATTERN="https://github.com/symfony-cli/symfony-cli/releases/download/${CLI_VERSION}/symfony-cli_~platform~.tar.gz"
 CLI_TMPDIR="${TMPDIR:-/tmp}"
 
-echo CLI_VERSION
-
 function output {
     style_start=""
     style_end=""
